@@ -125,6 +125,10 @@ h6 {
 	margin-bottom: 5px; 
 	}
 
+ol>li {
+	margin-bottom: 15px;
+}
+
 html>body #middle {
 	margin-top: 0px; /* ie5win fudge ends */
 	}
