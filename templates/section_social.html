@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Life - ISA International Students Quality of Life Survey</title>
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script src="static/js/answers.js" type="text/javascript"></script>
+	<script src="static/js/social_answers.js" type="text/javascript"></script>
+	<script type="text/javascript">
+  google.load("visualization", "1", {packages: ["corechart"]});
+	</script>
+</head>
+<body>
+
+	<img id='isa_logo' src="static/images/ISALogo.png" height='200'>
+	<h2 class='h2red'>Social Life at MIT</h2>
+	<p></p>
+	<a href="index.html">Back to main page</a>
+	<p><br /></p>
+
+	<div id="section_social">
+
+		<div id="social_question1">
+			<h4>1. Friends</h4>
+			<h5>Please indicate your level of agreement or disagreement with the following statement: "Most of my friends are also international students".</h5>
+			<div id="social_question1_chart" style="width: 100%; height: 300px;"></div>
+
+			<h5>Please indicate your level of agreement or disagreement with the following statement: "I find it difficult to make friends with those who are not from my same background".</h5>
+			<div id="social_question2_chart" style="width: 100%; height: 300px;"></div>
+		</div>
+
+		<div id="social_question3">
+			<h4>2. Support from living group</h4>
+			<h5>Please indicate your level of agreement or disagreement with the following statement: "I feel that my living group is sensitive to my particular needs as an international student".</h5>
+			<div id="social_question3_chart" style="width: 100%; height: 300px;"></div>
+		</div>
+
+		<div id="social_question4">
+			<h4>3. International community</h4>
+			<h5>Please indicate your level of agreement or disagreement with the following statement: "I feel there is a strong 'international community' at MIT".</h5>
+			<div id="social_question4_chart" style="width: 100%; height: 300px;"></div>
+
+			<h5>Please indicate your level of agreement or disagreement with the following statement: "I want a stronger 'international community' at MIT".</h5>
+			<div id="social_question5_chart" style="width: 100%; height: 300px;"></div>
+		</div>
+
+		<div id="social_question5">
+			<h4>4. Asking for help</h4>
+			<h5>If you had problems with issues specific to international students, such as housing, dining, cultural differences or making friends who would you reach out to?</h5>
+			<div id="social_question6_chart" style="width: 100%; height: 300px;"></div>
+		</div>
+
+		<a href='index.html'>Back to main page</a>
+		<p></p>
+	</div>
+
+	<footer>
+		<hr>
+		International Students Association <br />
+		Contact us at <a href:"mailto:isa-execcom@mit.edu">isa-execcom@mit.edu</a>
+	</footer>
+</body>

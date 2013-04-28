@@ -2,7 +2,10 @@ body {
 	font-family: 'Baskerville', Georgia;
 	background: #FF6C1F url('images/img05.jpg') repeat-x;
 	color: #666;
+	padding: 10px;
+	border: 0px;
 	background: #EDE9E8;
+	margin: 80px 26% 0px 26%;
 }
 
 a {
@@ -11,6 +14,9 @@ a {
 	outline: none;
 }
 
+a:visited {
+	color:  #ccc;
+}
 
 a:active {
 	color:  #ccc;
@@ -58,11 +64,6 @@ h1 {
 	margin-bottom: 0;
 }
 
-.h1small {
-	line-height: 1em;
-	font-size: 5em;
-}
-
 h2 {
 	font-size: 60px;
 	text-align: center;
@@ -72,18 +73,14 @@ h2 {
 	margin-bottom: 0;
 	}
 
-.h2small {
-	font-size: 3em;
-	line-height: 1	em;
-}
-
 .h2red {
 	text-align: center;
 	color: #8B2323;
 }
 
 h3 {
-	font-size: 2em;
+	font-size: 40px;
+	line-height: 80px;
 	color: #8B2323;
 	font-weight: bold;
 	margin-top: 0;
@@ -143,14 +140,6 @@ footer {
 
 #isa_logo {
 	display: block;
-	height: 300px;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-#isa_logo_small {
-	display: block;
-	height: 200px;
 	margin-left: auto;
     margin-right: auto;
 }
