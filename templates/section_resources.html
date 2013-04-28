@@ -2,21 +2,36 @@
 <html>
 <head>
 	<title>International Student Resources - ISA International Students Quality of Life Survey</title>
-	<link rel="stylesheet" type="text/css" href="static/css/main.css">
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-	<script src="static/js/answers.js" type="text/javascript"></script>
-	<script src="static/js/resources_answers.js" type="text/javascript"></script>
-	<script type="text/javascript">
-  google.load("visualization", "1", {packages: ["corechart"]});
-	</script>
+		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/main.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="{{ STATIC_URL }}js/bootstrap.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+
+		<script src="{{ STATIC_URL }}js/answers.js" type="text/javascript"></script>
+		<script src="{{ STATIC_URL }}js/resources_answers.js" type="text/javascript"></script>
+		<script type="text/javascript">
+	  google.load("visualization", "1", {packages: ["corechart"]});
+		</script>
 </head>
 <body>
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <a class="brand" href="/" >ISA Quality of Life Initiative</a>
+	    <ul class="nav pull-right">
+	      <li><a href="/position/">Position</a></li>
+	      <li class="active"><a href="/survey/">Survey</a></li>
+	      <li><a href="/initiatives/">Initiatives</a></li>
+	    </ul>
+	  </div>
+	</div>
 
-	<img id='isa_logo' src="static/images/ISALogo.png" height='200'>
+	<div class='container'>
 	<h2 class='h2red'>International Student Resources</h2>
 	<p></p>
-	<a href="index.html">Back to main page</a>
+	<a href="/survey/">Back to survey index</a>
 	<p><br /></p>
 
 	<div id="section_resources">
@@ -61,7 +76,7 @@
 
 		</div>
 
-		<a href='index.html'>Back to main page</a>
+	<a href="/survey/">Back to survey index</a>
 		<p></p>
 	</div>
 
