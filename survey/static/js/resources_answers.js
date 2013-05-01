@@ -72,6 +72,30 @@ var drawResourcesCharts = function() {
     'resources_question12_chart'
     );
 
+    draw_chart_wrapper(
+    [['', 'I use it', 'I would use it if I need it', 'I don\'t use it or plan to use it, no need', 'I don\'t plan to use it, I don\'t feel welcome', 'Not aware of resource'],
+                    ['', 34, 83, 51, 29, 10]],
+    'resources_question13_chart'
+    );
+
+    draw_chart_wrapper(
+    [['', 'I use it', 'I would use it if I need it', 'I don\'t use it or plan to use it, no need', 'I don\'t plan to use it, I don\'t feel welcome', 'Not aware of resource'],
+                    ['', 56, 71, 42, 19, 18]],
+    'resources_question14_chart'
+    );
+
+    draw_chart_wrapper(
+    [['', 'I use it', 'I would use it if I need it', 'I don\'t use it or plan to use it, no need', 'I don\'t plan to use it, I don\'t feel welcome', 'Not aware of resource'],
+                    ['', 36, 77, 34, 14, 42]],
+    'resources_question15_chart'
+    );
+
+    draw_chart_wrapper(
+    [['', 'I use it', 'I would use it if I need it', 'I don\'t use it or plan to use it, no need', 'I don\'t plan to use it, I don\'t feel welcome', 'Not aware of resource'],
+                    ['', 2, 28, 33, 11, 131]],
+    'resources_question16_chart'
+    );
+
 } 
       
 var drawVisualization = function() {

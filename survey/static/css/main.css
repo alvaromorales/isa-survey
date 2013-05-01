@@ -13,11 +13,11 @@ a {
 
 
 a:active {
-	color:  #ccc;
+	color:  #00008B;
 }
 
 a:hover {
-	color: #ccc;
+	color: #00008B;
 	text-decoration: underline;
 }
 
@@ -165,4 +165,8 @@ footer {
 	margin-left: auto;
     margin-right: auto;
     background-color: transparent;
+}
+
+.top_graphtext {
+	text-align: center;
 }

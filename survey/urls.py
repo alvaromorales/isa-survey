@@ -14,4 +14,5 @@ urlpatterns = patterns('',
                        url(r'^survey/demographics$', TemplateView.as_view(template_name='section_demographics.html')),
                        url(r'^position/$', TemplateView.as_view(template_name='position.html')),
                        url(r'^initiatives/$', TemplateView.as_view(template_name='initiatives.html')),
+                       url(r'^getinvolved/$', TemplateView.as_view(template_name='get_involved.html')),
 )

@@ -35,6 +35,16 @@ var drawFinancesCharts = function() {
           ['No', 88],
         ],
         'financial_question5_chart');
+
+    drawPieChart(
+        [['Work', 'Number'],
+          ['1', 106],
+          ['2', 27],
+          ['3', 12],
+          ['4', 0],
+          ['more than 4', 2],
+        ],
+        'financial_question6_chart');
 } 
       
 var drawVisualization = function() {
